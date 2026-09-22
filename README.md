@@ -1,21 +1,44 @@
-# AccountConnect Landing Page
+# AccountConnect
 
-A responsive, discreet landing page for collecting account-related enquiries.
+AccountConnect is a modern, responsive landing page designed for private account enquiries. It provides account owners with a clear and convenient way to share general account information and start a conversation through WhatsApp.
 
-## Before publishing
+## Features
 
-1. Open `script.js`.
-2. Replace `923001234567` with your WhatsApp number, including country code but without `+`, spaces, or dashes.
-3. Search for `AccountConnect` in `index.html` and replace it with your business name if desired.
-4. Replace the three clearly marked sample reviews in `index.html` with genuine feedback before publishing.
+* Responsive design for desktop, tablet, and mobile
+* Private account enquiry form
+* Direct WhatsApp form submission
+* Floating WhatsApp chat button
+* Account-owner testimonials section
+* Simple three-step enquiry process
+* Privacy-focused interface
+* Fast, lightweight, and easy to navigate
+* No backend or database required
+* Deployable through GitHub Pages
 
-## Publish on GitHub Pages
+## Technologies
 
-1. Extract this ZIP.
-2. Create a new public GitHub repository.
-3. Upload all four files to the repository root.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, select **Deploy from a branch**.
-6. Select the `main` branch and `/ (root)`, then click **Save**.
+* HTML5
+* CSS3
+* JavaScript
+* WhatsApp Click-to-Chat integration
 
-The form works without a server: after completion, it prepares the submitted account details as a WhatsApp message to your configured number. The floating WhatsApp button uses the same number and opens a ready-made chat message. The page never asks for passwords or login codes.
+## Privacy
+
+The website collects only general account and contact information. It does not request passwords, login codes, recovery codes, or other sensitive credentials.
+
+## Live Website
+
+[View AccountConnect](ADD-YOUR-LIVE-WEBSITE-LINK-HERE)
+
+## Project Structure
+
+```text
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
+```
+
+## Developer
+
+Designed and developed by [Munazza Shan](https://github.com/munazza-shan-web).
