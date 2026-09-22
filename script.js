@@ -1,5 +1,4 @@
-// EDIT THIS NUMBER before publishing. Use country code without + or spaces.
-// Example for Pakistan: 923001234567
+// WhatsApp number with country code, without + or spaces.
 const DEALER_WHATSAPP = "923356290131";
 
 const form = document.getElementById("accountForm");
@@ -15,11 +14,6 @@ const showToast = (message) => {
 
 whatsappButton.addEventListener("click", (event) => {
   event.preventDefault();
-
-  if (DEALER_WHATSAPP === "923001234567") {
-    showToast("Setup needed: replace the sample WhatsApp number in script.js with your number.");
-    return;
-  }
 
   const chatMessage = "Hello, I would like to discuss an account enquiry.";
   window.open(`https://wa.me/${DEALER_WHATSAPP}?text=${encodeURIComponent(chatMessage)}`, "_blank", "noopener");
@@ -47,11 +41,6 @@ form.addEventListener("submit", (event) => {
     `*Original owner:* ${data.ownership}`,
     `*Additional details:* ${data.details || "Not provided"}`
   ].join("\n");
-
-  if (DEALER_WHATSAPP === "923001234567") {
-    showToast("Setup needed: replace the sample WhatsApp number in script.js with your number.");
-    return;
-  }
 
   window.open(`https://wa.me/${DEALER_WHATSAPP}?text=${encodeURIComponent(message)}`, "_blank", "noopener");
   showToast("Your details are ready. Please send the WhatsApp message to complete your enquiry.");
